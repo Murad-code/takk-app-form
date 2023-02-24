@@ -1,0 +1,53 @@
+.Container {
+  text-align: left;
+  padding: 100px 150px;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.InnerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  max-width: 600px;
+
+  .Title {
+    color: #ffba4a;
+  }
+  .Subtitle {
+    color: #908e8e;
+    font-style: bold;
+    margin-bottom: 60px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  span {
+    color: #908e8e;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  input {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-size: 24px;
+    padding: 5px;
+  }
+  button {
+    all: unset;
+    width: auto;
+    background-color: #2d8dff;
+    color: white;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+}
